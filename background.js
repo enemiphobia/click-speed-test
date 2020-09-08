@@ -1,0 +1,1 @@
+let cpsValue=document.getElementById("cpsButton"),clicks=0;document.getElementById("cpsButton").addEventListener("click",ClickMouse);function ClickMouse(){clicks++}setInterval(function(){cpsValue=document.getElementById("cpsButton"),cpsValue.innerHTML=clicks+" CPS",clicks=0},1e3);

@@ -1,0 +1,22 @@
+    {
+    "name": "CPS Speed Test",
+    "version": "1.0",
+    "description": "This will test how fast you click.",
+    "manifest_version": 2,
+    "icons": {
+      "128": "img_16px.png",
+      "128": "img_32px.png",
+      "128": "img_64px.png",
+      "128": "img_128px.png"
+    },
+    "background": {
+      "persistent": false,
+      "scripts": ["background.js"]
+    },
+    "permissions": ["https://*.google.com/", "activeTab"],
+    "browser_action": {
+      "default_icon": "img_16px.png",
+      "default_popup": "popup.html"
+    },
+    "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
+  }
