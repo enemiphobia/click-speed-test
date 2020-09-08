@@ -4,7 +4,7 @@ This is a Google Chrome Extension that checks how fast you click each second.
 # Instructions
 *Step 1:  Download as a zip file.*
 
-*Step 2: Unzip the file
+*Step 2: Unzip the file.*
 
 *Step 3: Go to chrome://extensions, then go to the top right and enable developer mode.*
 
