@@ -1,0 +1,13 @@
+body {
+  background-color: #1e1e1e;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.click-button {
+  width: 600px;
+  height: 300px;
+  background-color: #4b4b4b;
+  border: none;
+  font-size: 100px;
+  font-family: 'Balsamiq Sans', cursive;
+}
